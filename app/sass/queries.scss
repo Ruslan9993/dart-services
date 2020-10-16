@@ -1,0 +1,58 @@
+@import 'media';
+
+
+@include _1600 {
+  .container {
+    max-width: 1440px;
+  }
+
+  .slider {
+    &__item {
+      max-width: 750px;
+    }
+  }
+
+  .customers {
+    &__block {
+      .customers__opinion {
+        max-width: 37%;
+      }
+    }
+   
+  }
+}
+
+@include _1170 {
+  .container {
+    max-width: 1120px;
+  }
+  .services {
+    #services__accordion {
+      max-width: 70%;
+    }
+  }
+  
+  .slider {
+    &__item {
+      max-width: 500px;
+    }
+  }
+
+  .head {
+    .head__block {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 120px;
+      .head__title {
+        text-align: center;
+        margin-bottom: 50px;
+        p {
+          text-align: center;
+        }    
+      }
+    }
+    
+  }
+}
+
