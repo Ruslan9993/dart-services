@@ -1,13 +1,30 @@
 
- $(function(){
-  $('.slider').slick({
-      vertical: true,
-      verticalSwiping: true,
-      slidesToShow: 2,
-      autoplay: false,
-      
+ 
+ if(window.innerWidth >= 500) {
+  $(function(){
+    $('.slider').slick({
+        vertical: true,
+        verticalSwiping: true,
+        slidesToShow: 2,
+        autoplay: false,
+        
+    });
   });
-});
+ }
+
+ if(window.innerWidth < 500) {
+  $(function(){
+    $('.slider').slick({
+        vertical: true,
+        verticalSwiping: true,
+        slidesToShow: 1,
+        autoplay: false,
+        
+    });
+  });
+ }
+ 
+
 
 
 

@@ -34,7 +34,9 @@ function scripts() {
     'node_modules/jquery/dist/jquery.min.js',
     'app/js/slick.min.js',
     'app/js/playVideo.js',
+    'app/js/burger-menu.js',
     'app/js/team.js',
+    'app/js/form.js',
     'app/js/app.js',
   ])
 .pipe(concat('app.min.js'))
